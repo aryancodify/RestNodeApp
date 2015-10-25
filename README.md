@@ -1,0 +1,2 @@
+# RestNodeApp
+Demonstrating how to build a node.js restful application implementi ng security protocols OAuth2 and JWT using a JSON access token.There are basical ly two ways to secure a REST API: 1. Using a session and cookie based authentica tion.2. Using oauth2 i.e. including a json token in every call to authenticate a s well as authorize the restful service end points. In this application we use J SON token based approach for this.
