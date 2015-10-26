@@ -25,7 +25,7 @@ app.all('/*',function(req,res,next){
 
 app.all("/api/v1/*",[require('./middlewares/validateRequest')]);
 
-app.use("/",require('./routes'));
+app.use("/",require('./server/routes'));
 
 //If no route is matched by now , it must be 404
 app.use(function(req,res,next){
