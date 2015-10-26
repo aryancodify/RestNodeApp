@@ -23,3 +23,9 @@ router.delete('/api/v1/product/:id',products.delete);
 *Routes that can be accessed only by authenticated and authorized users
 */
 router.get('/api/v1/admin/users',user.getAll);
+router.get('/api/v1/admin/user/:id',usr.getOne);
+router.post('/api/v1/admin/user/', user.create);
+router.put('/api/v1/admin/user/:id', user.update);
+router.delete('/api/v1/admin/user/:id', user.delete);
+
+module.exports = router;
